@@ -18,7 +18,7 @@ namespace SpankYeti.Controllers
 
         public ActionResult About()
         {
-            ViewBag.Message = "";
+            ViewBag.Message = "THE PARTY GAME OF QUESTIONABLE DECISIONS";
 
             return View();
         }

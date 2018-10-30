@@ -1,7 +1,61 @@
 ﻿@{
     ViewBag.Title = "About";
 }
-<h2>@ViewBag.Title.</h2>
-<h3>@ViewBag.Message</h3>
+<center>
+    <h1>Spank the Yeti</h1>
+    <h2>@ViewBag.Message</h2>
+    <p><a href="~/Content/Doc/STY_PrintNPlay_DEMO9_7.pdf" target="_blank">Download the demo</a></p>
+</center>
 
-<p>Use this area to provide additional information.</p>
+
+<!-- About and layout rows -->
+<div class="row">
+    <div class="col">
+        <center><img src="~/Content/Img/Layout.png" /></center>
+    </div>
+</div>
+<div class="row justify-content-md-center">
+    <div class="col">
+        <center><h2>@ViewBag.Title</h2></center>
+        <p>
+            Inspired by the popular parlor game - F*ck, Marry, Kill. Each round a player pairs up 3 Action Cards with 3 Objectve Cards, this player is called the Yeti. The Objective cards can consist of people, creatures and things.
+            And the other players try to predict correctly of what the Yeti's answers.
+        </p>
+    </div>
+</div>
+
+<!-- Components, Goal, Setup, and How to play rows -->
+<div class="row justify-content-md-center">
+    <div class="col-md-5">
+        <h2>COMPONENTS</h2>
+        <p>Note: This is the demo version.</p>
+        <ul>
+            <li>48 White Actions Cards</li>
+            <li>48 Blue Objective Cards</li>
+            <li>11 sets of ABC Cards</li>
+            <li>1 set of 123 cards</li>
+        </ul>
+    </div>
+    <div class="col-md-5">
+        <h2>SETUP</h2>
+        <ol>
+            <li>Each player gets a set of ABC Cards</li>
+            <li>Place the 123 Cards and 1 set of ABC Cards in the center of the table</li>
+            <li>Shuffle each deck of cards. Place a stack</li>
+        </ol>
+    </div>
+ </div>
+
+<div class="row">
+    <div class="col-md-5">
+        <h2>Goal</h2>
+        <p>Each round, one player (The Yeti) pairs up 3 Actions with 3 Objectives, and the other players try to predict the Yeti's answersk</p>
+    </div>
+    <div class="col-md-5">
+        <h2>HOW TO PLAY</h2>
+        <b>The hairiest player gets to be "Yeti" for the first round of player. Obviously.</b>
+        <ol>
+            <li>Flip over 3 Action Cards and place them face up on the 123 Cards. Flip over 3 Objective Cards and place them face up on the ABC Cards.</li>
+        </ol>
+    </div>
+</div>
