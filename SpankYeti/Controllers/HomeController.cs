@@ -10,20 +10,28 @@ namespace SpankYeti.Controllers
     {
         public ActionResult Index()
         {
+            ViewBag.Title = "Spank the Yeti: The Party Game of Questionable Decisions";
+            ViewBag.Goal = "Goal";
+            ViewBag.GoalMessage = "Each round, one player pairs up three Actions with three Objects, and the other players try to correctly predict his or her answers.";
             return View();
         }
 
         public ActionResult About()
         {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "";
 
             return View();
         }
 
-        public ActionResult Contact()
+        public ActionResult Draw()
         {
             ViewBag.Message = "Your contact page.";
 
+            return View();
+        }
+
+        public ActionResult NewGame()
+        {
             return View();
         }
     }
