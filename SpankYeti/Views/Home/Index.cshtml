@@ -3,7 +3,7 @@
     <h1 class="text-center">@ViewBag.Title</h1>
     <h2>@ViewBag.Goal</h2>
     <p class="lead">@ViewBag.GoalMessage</p>
-    <p><a href=@Url.Action("About", "Home") class="btn btn-primary btn-lg">Learn more &raquo;</a></p>
+    <p><a href=@Url.Action("About", "Home") class="btn btn-default">Learn more &raquo;</a></p>
 </div>
 
 <div class="row">
@@ -11,7 +11,7 @@
         <h2>Getting started</h2>
         <p>The way is to start playing.
         </p>
-        <p><a class="btn btn-default" href=@Url.Action("NewGame", "Home")>Play Game &raquo;</a></p>
+        <p><a class="btn btn-default" href=@Url.Action("Game", "Home")>Play Game &raquo;</a></p>
     </div>
     <div class="col-md-4">
         <h2>Get Educated</h2>
@@ -21,6 +21,6 @@
     <div class="col-md-4">
         <h2>Get the Game</h2>
         <p>Get the full version of this game, which is a card game</p>
-        <p><a class="btn btn-default" href="http://galacticsneeze.com/spank-the-yeti/">Get the Game &raquo;</a></p>
+        <p><a class="btn btn-default" href="http://galacticsneeze.com/spank-the-yeti/">Get the Game &raquo;</a> <a href="~/Content/Doc/STY_PrintNPlay_DEMO9_7.pdf">Download</a></p>
     </div>
 </div>

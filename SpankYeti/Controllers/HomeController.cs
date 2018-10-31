@@ -30,7 +30,7 @@ namespace SpankYeti.Controllers
             return View();
         }
 
-        public ActionResult NewGame()
+        public ActionResult Game()
         {
             return View();
         }
